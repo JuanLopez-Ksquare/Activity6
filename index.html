@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html, body{
+        background-color: lightcyan;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    .grid-thing
+    {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px;
+        padding:60px;
+    }
+    .fit-picture{
+            width: 50px;
+            border-radius: 25px;
+            float: left; 
+            margin-right: 20px;
+        }
+    .name{
+            font-size: 18px;
+            font-weight: bolder;
+            color: gray;
+        }
+    .below
+    {
+        font-weight: lighter;
+        color: gray;
+        
+    }
+    .card-algo
+    {
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+        border-radius: 20px;
+        overflow: hidden;
+        padding: 30px;
+        
+
+    }
+    .bodypost
+    {
+        text-overflow: ellipsis;
+    }
+    h3{
+        margin-right: 20px;
+        color: gray;
+    }
+    h5{
+        color: gray;
+        font-weight: lighter;
+    }
+
+    .first
+    {
+        background-color: rgb(72, 85, 106);
+        grid-column: 1/3;
+        grid-row: 1;
+        color: white;
+    }
+    .second
+    {
+        grid-column: 3/4;
+    }
+    .third
+    {
+        grid-column: 4/5;
+        grid-row: 1/3;
+    }
+    .fourth
+    {
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .fifth
+    {
+        grid-column: 2/4;
+        grid-row: 2;
+    }
+
+</style>
+<body>
+    <div class="grid-thing">
+        
+            <div class="card-algo first">
+                <div class="user-screen">
+                    <img class="fit-picture"
+                    src = "images/default.png"
+                    alt="cool">
+                    <div class="name name-align">Cool Name</div>
+                    <div class="below">Verified Graduate</div>
+                </div>
+                <div class="bodypost">
+                    <h3>
+                    Bacon ipsum dolor amet biltong turducken filet mignon, capicola short ribs meatloaf hamburger. Corned beef andouille boudin, beef ribs porchetta brisket kevin doner bacon pork chop pork loin filet mignon leberkas spare ribs. Tenderloin chicken cow meatloaf landjaeger biltong, prosciutto tail swine bresaola pastrami turducken jowl shoulder ham. Meatloaf sausage pastrami hamburger alcatra. Pork chop alcatra t-bone biltong flank, pork pancetta drumstick.
+                    </h3>
+                    <h5>
+                    Venison drumstick shank turducken strip steak boudin ground round. Picanha pig t-bone, shankle turducken jowl fatback bresaola shoulder spare ribs hamburger tri-tip. Leberkas t-bone meatloaf, pancetta short loin flank beef bacon beef ribs turkey ham hock ribeye sausage pastrami. Tongue sausage prosciutto ham hock tri-tip. Spare ribs leberkas jerky salami frankfurter capicola rump, doner andouille. Tenderloin pancetta ground round filet mignon drumstick salami.
+                    </h5>
+                </div>
+            </div>
+        
+
+        
+            <div class="card-algo second">
+                <div class="user-screen">
+                    <img class="fit-picture"
+                    src = "images/default.png"
+                    alt="cool">
+                    <div class="name name-align">Cool Name</div>
+                    <div class="below">Verified Graduate</div>
+                </div>
+                    <div>
+                    <h3>
+                    Bacon ipsum dolor amet biltong turducken filet mignon, capicola short ribs meatloaf hamburger. Corned beef andouille boudin, beef ribs porchetta brisket kevin doner bacon pork chop pork loin filet mignon leberkas spare ribs. Tenderloin chicken cow meatloaf landjaeger biltong, prosciutto tail swine bresaola pastrami turducken jowl shoulder ham. Meatloaf sausage pastrami hamburger alcatra. Pork chop alcatra t-bone biltong flank, pork pancetta drumstick.
+                    </h3>
+                    <h5>
+                    Venison drumstick shank turducken strip steak boudin ground round. Picanha pig t-bone, shankle turducken jowl fatback bresaola shoulder spare ribs hamburger tri-tip. Leberkas t-bone meatloaf, pancetta short loin flank beef bacon beef ribs turkey ham hock ribeye sausage pastrami. Tongue sausage prosciutto ham hock tri-tip. Spare ribs leberkas jerky salami frankfurter capicola rump, doner andouille. Tenderloin pancetta ground round filet mignon drumstick salami.
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card-algo third">
+                <div class="user-screen">
+                    <img class="fit-picture"
+                    src = "images/default.png"
+                    alt="cool">
+                    <div class="name">Cool Name</div>
+                    <div class="below">Verified Graduate</div>
+                </div>
+                    <div>
+                    <h3>
+                    Bacon ipsum dolor amet biltong turducken filet mignon, capicola short ribs meatloaf hamburger. Corned beef andouille boudin, beef ribs porchetta brisket kevin doner bacon pork chop pork loin filet mignon leberkas spare ribs. Tenderloin chicken cow meatloaf landjaeger biltong, prosciutto tail swine bresaola pastrami turducken jowl shoulder ham. Meatloaf sausage pastrami hamburger alcatra. Pork chop alcatra t-bone biltong flank, pork pancetta drumstick.
+                    </h3>
+                    <h5>
+                    Venison drumstick shank turducken strip steak boudin ground round. Picanha pig t-bone, shankle turducken jowl fatback bresaola shoulder spare ribs hamburger tri-tip. Leberkas t-bone meatloaf, pancetta short loin flank beef bacon beef ribs turkey ham hock ribeye sausage pastrami. Tongue sausage prosciutto ham hock tri-tip. Spare ribs leberkas jerky salami frankfurter capicola rump, doner andouille. Tenderloin pancetta ground round filet mignon drumstick salami.
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card-algo fourth">
+                <div class="user-screen">
+                    <img class="fit-picture"
+                    src = "images/default.png"
+                    alt="cool">
+                    <div class="name name-align">Cool Name</div>
+                    <div class="below">Verified Graduate</div>
+                </div>
+                    <div>
+                    <h3>
+                    Bacon ipsum dolor amet biltong turducken filet mignon, capicola short ribs meatloaf hamburger. Corned beef andouille boudin, beef ribs porchetta brisket kevin doner bacon pork chop pork loin filet mignon leberkas spare ribs. Tenderloin chicken cow meatloaf landjaeger biltong, prosciutto tail swine bresaola pastrami turducken jowl shoulder ham. Meatloaf sausage pastrami hamburger alcatra. Pork chop alcatra t-bone biltong flank, pork pancetta drumstick.
+                    </h3>
+                    <h5>
+                    Venison drumstick shank turducken strip steak boudin ground round. Picanha pig t-bone, shankle turducken jowl fatback bresaola shoulder spare ribs hamburger tri-tip. Leberkas t-bone meatloaf, pancetta short loin flank beef bacon beef ribs turkey ham hock ribeye sausage pastrami. Tongue sausage prosciutto ham hock tri-tip. Spare ribs leberkas jerky salami frankfurter capicola rump, doner andouille. Tenderloin pancetta ground round filet mignon drumstick salami.
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card-algo fifth">
+                <div class="user-screen">
+                    <img class="fit-picture"
+                    src = "images/default.png"
+                    alt="cool">
+                    <div class="name name-align">Cool Name</div>
+                    <div class="below">Verified Graduate</div>
+                </div>
+                    <div>
+                    <h3>
+                    Bacon ipsum dolor amet biltong turducken filet mignon, capicola short ribs meatloaf hamburger. Corned beef andouille boudin, beef ribs porchetta brisket kevin doner bacon pork chop pork loin filet mignon leberkas spare ribs. Tenderloin chicken cow meatloaf landjaeger biltong, prosciutto tail swine bresaola pastrami turducken jowl shoulder ham. Meatloaf sausage pastrami hamburger alcatra. Pork chop alcatra t-bone biltong flank, pork pancetta drumstick.
+                    </h3>
+                    <h5>
+                    Venison drumstick shank turducken strip steak boudin ground round. Picanha pig t-bone, shankle turducken jowl fatback bresaola shoulder spare ribs hamburger tri-tip. Leberkas t-bone meatloaf, pancetta short loin flank beef bacon beef ribs turkey ham hock ribeye sausage pastrami. Tongue sausage prosciutto ham hock tri-tip. Spare ribs leberkas jerky salami frankfurter capicola rump, doner andouille. Tenderloin pancetta ground round filet mignon drumstick salami.
+                    </h5>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>
